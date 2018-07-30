@@ -208,7 +208,7 @@ export const {{classname}}FetchParamCreator = function (configuration?: Configur
 
     {{/formParams}}
     {{#hasFormParams}}
-            localVarHeaderParameter['Content-Type'] = 'multipart/form-data';
+            localVarHeaderParameter['Content-Type'] = 'application/x-www-form-urlencoded';
 
     {{/hasFormParams}}
     {{#bodyParam}}
